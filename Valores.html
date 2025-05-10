@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Valores - Innova</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #f0f8ff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #004080;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #004080;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .valores-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .valores-row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .valor-card {
+            background-color: white;
+            border: 1px solid #cce0f5;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .valor-card h3 {
+            color: #007acc;
+            margin-bottom: 10px;
+        }
+
+        .valor-card p {
+            text-align: justify;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .valores-row {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<a href="index.html">← Volver al inicio</a>
+<h2>Nuestros Valores</h2>
+
+<div class="valores-container">
+    <!-- Fila 1 -->
+    <div class="valores-row">
+        <div class="valor-card">
+            <h3>Integridad</h3>
+            <p>Actuar con honestidad y transparencia en todas las interacciones, asegurando que las decisiones y acciones estén alineadas con principios éticos sólidos.</p>
+        </div>
+        <div class="valor-card">
+            <h3>Responsabilidad</h3>
+            <p>Asumir la propiedad de las acciones y decisiones, garantizando que se cumplan los compromisos y se gestionen los recursos de manera eficiente y ética.</p>
+        </div>
+    </div>
+
+    <!-- Fila 2 (centrada con 2 valores) -->
+    <div class="valores-row">
+        <div class="valor-card">
+            <h3>Empatia</h3>
+            <p>Comprender y valorar las perspectivas y necesidades de los clientes, colaboradores y socios, fomentando relaciones basadas en el respeto mutuo y la colaboración.</p>
+        </div>
+        <div class="valor-card">
+            <h3>Excelencia</h3>
+            <p>Compromiso con la mejora continua y la entrega de servicios de la más alta calidad, superando las expectativas de los clientes y contribuyendo al éxito de sus proyectos.</p>
+        </div>
+    </div>
+
+    <!-- Fila 3 (último valor centrado) -->
+    <div class="valores-row">
+        <div class="valor-card">
+            <h3>Cofidencialidad</h3>
+            <p>Estamos dedicados al éxito de nuestros clientes y nos involucramos profundamente en cada desafío.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
